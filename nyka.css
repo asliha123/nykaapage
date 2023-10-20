@@ -5,7 +5,7 @@
        list-style: none;
        box-sizing: border-box;
 }
-.f-nav{
+ .f-nav{
     display: flex;
     justify-content: center;
     justify-content: space-between;
@@ -250,99 +250,22 @@
      color: rgb(246, 108, 131);
     }
     @media(max-width:600px){
-        .fnav{
-            flex-direction: column;
-            align-items: center;
-            display: none;
+       .beauty-img img{
+            display:block;
+            width: 200%;
         }
-        .f-nav p{
-            display: none;
+        .beauty-img2 img{
+            width: 200%;
         }
-        .feature {
-            display: none;
+        .beauty-img3 img{
+            width: 200%;
         }
-        .feature .app i{
-            display: none;
+        .beauty-img4 img{
+            width: 200%;
         }
-        .sec-nav{
-            display: none;
-
+        .beauty-img5 img{
+            width: 200%;
         }
-        .sec-nav ul li{
-            display: none;
+        
         }
-        .items{
-            display: none;
-        }
-        .main-img img{
-            width: 150%;
-            padding: 10px;
-        }
-        .card img{
-            width: 100%;
-            
-            
-            margin-left: 30px;
-        }
-        .beauty .imaag{
-            width: 100%;
-            display: block;
-            align-items: center;
-            margin-left: 200px;
-        }
- .beauty h2{
-    text-align: center;
-    align-items: center;
-    margin-left: 250px;
-    font-size: 30px;
-    
- }
- .deal h2{
-    font-size: 30px;
-    margin-left: 220px;
-    
- }
- .deal-img img {
-    width: 180%;
-    padding: 5px;
- }
- .discount h2{
-    font-size: 30px;
-    margin-left: 300px;
-    
- }
- .discount .dis-img img{
-    width: 200%;
-    
- }
- .discount .dis-img{
-    display: block;
-    margin-left: 200px;
- }
-.offer h2{
-    font-size: 40px;
-    margin-left: 300px;
-
-    
-}
-.offer-img img{
-    width: 200%;
-}
-.footer{
-  margin-left: 300px;
-}
-.footer h1{
-    font-size: 70px;
-}
-.point h3{
-    font-size: 30px;
-    margin-left: 50px;
-}
-.point li{
-    font-size: 20px;
-    margin-left: 50px;
-}
-
-}
-
     

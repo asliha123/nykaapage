@@ -1,0 +1,348 @@
+*{
+    margin: 0%;
+    padding: 0%;
+       text-decoration: none;
+       list-style: none;
+       box-sizing: border-box;
+}
+.f-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: rgb(248, 54, 86);
+    padding: 5px;
+}
+.feature{
+    display: flex;
+}
+.feature .app{
+    display: flex;
+    margin-inline:22px ;
+}
+.feature .app i{
+    margin-inline: 8px;
+    padding: 5px;
+}
+.sec-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(244, 241, 241);
+    
+}
+.sec-nav ul li{
+    list-style: none;
+    margin-top: 18px;
+}
+.sec-nav  ul li img{
+    width: 9%;
+    margin-left: 22px;
+}
+.sec-nav ul li a{
+    margin-inline: 22px;
+    font-weight: bold;
+
+}
+.sec-nav ul li a:hover{
+    background-color: rgb(244, 74, 102);
+}
+.sec-nav .inputs{
+    display: flex;
+    margin-top: 10px;
+}
+.sec-nav .inputs button{
+    margin-inline: 22px;
+    margin-top: 8px;
+}
+.sec-nav .inputs input{
+    width: 220px;
+    background-color: rgb(244, 232, 232);
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+
+}
+.sec-nav .inputs input:hover{
+    color: black;
+}
+.sec-nav .inputs button{
+    width: 90px;
+    height: 40px;
+    background-color: rgb(244, 64, 94);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+.sec-nav .inputs button:hover{
+    color: black;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 5px;
+    background-color:rgb(249, 246, 246);
+}
+.items ul li{
+    list-style: none;
+   
+}
+.items ul li a{
+    margin-inline: 22px;
+    text-align: center;
+    
+
+}
+.items ul li a:hover
+{
+   background-color: rgb(247, 67, 97);
+}
+.items ul li button{
+    width: 90px;
+    height: 34px;
+    background-color: rgb(250, 73, 102);
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}
+.items ul li button:hover{
+    color:black;
+}
+.main-img img{
+ width: 100%;
+ padding: 40px;
+ border-radius: 50px;
+ height: 450px;
+}
+.card img{
+    width: 13%;
+}
+.card {
+    display: flex;
+    margin-left: 30px;
+}
+
+
+ .beauty h2{
+    text-align: center;
+    color: rgb(247, 68, 98);
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 40px;
+}
+.beauty .imaag{
+    display: flex;
+    gap: 7px;
+    padding: 9px;
+    margin: 8px;
+    margin-top: 15px;
+}
+.imaag a{
+    color: black;
+    text-decoration: none;
+}
+.deal h2{
+    text-align: center;
+    color: rgb(246, 70, 100);
+    margin-top: 50px;
+    font-size: 40px;
+    
+}
+.deal .deal-img {
+    float: left;
+    gap:10px ;
+    padding: 20px;
+
+
+    
+}
+.deal-img img {
+    width: 33%;
+    border-radius: 5px;
+    margin-top: 30px;
+    }
+    .discount h2{
+        text-align: center;
+        color: rgb(246, 70, 100);
+        margin-top: 50px;
+        font-size: 40px;
+        
+    }
+    .discount .dis-img{
+        display: flex;
+        
+    }
+    .discount .dis-img img{
+        width: 20%;
+        margin-top: 30px;
+    }
+    .offer h2{
+        text-align: center;
+        color: rgb(246, 70, 100);
+        margin-top: 50px;
+        font-size: 50px;
+    }
+    .offer{
+        float: left;
+    }
+
+    
+    .offer .offer-img {
+        
+        gap:40px ;
+        padding: 40px;
+        margin-left: 80px;
+    
+    
+        
+    }
+    .offer-img img{
+        width: 19%;
+        border-radius: 5px;
+        margin-top: 30px;
+        }
+     .footer{
+        text-align: center;
+        
+        
+
+     }
+     .footer h1{
+        font-size: 30px;
+        color: rgb(245, 111, 133);
+     }
+     .point h3{
+        font-size: 20px;
+     }
+     .point li{
+        list-style: none;
+     }
+     .iconDiv{
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .icon{
+        width: 50px;
+        height: 50px;
+        border: 2px solid;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 10px;
+        background-color: white;
+        margin-bottom: 40px;
+        
+    }
+    .icon i{
+        font-size: 20px;
+    
+    }
+    .icon i:hover{
+     color: rgb(246, 108, 131);
+    }
+    @media(max-width:600px){
+        .fnav{
+            flex-direction: column;
+            align-items: center;
+            display: none;
+        }
+        .f-nav p{
+            display: none;
+        }
+        .feature {
+            display: none;
+        }
+        .feature .app i{
+            display: none;
+        }
+        .sec-nav{
+            display: none;
+
+        }
+        .sec-nav ul li{
+            display: none;
+        }
+        .items{
+            display: none;
+        }
+        .main-img img{
+            width: 150%;
+            padding: 10px;
+        }
+        .card img{
+            width: 100%;
+            
+            
+            margin-left: 30px;
+        }
+        .beauty .imaag{
+            width: 100%;
+            display: block;
+            align-items: center;
+            margin-left: 200px;
+        }
+ .beauty h2{
+    text-align: center;
+    align-items: center;
+    margin-left: 250px;
+    font-size: 30px;
+    
+ }
+ .deal h2{
+    font-size: 30px;
+    margin-left: 220px;
+    
+ }
+ .deal-img img {
+    width: 180%;
+    padding: 5px;
+ }
+ .discount h2{
+    font-size: 30px;
+    margin-left: 300px;
+    
+ }
+ .discount .dis-img img{
+    width: 200%;
+    
+ }
+ .discount .dis-img{
+    display: block;
+    margin-left: 200px;
+ }
+.offer h2{
+    font-size: 40px;
+    margin-left: 300px;
+
+    
+}
+.offer-img img{
+    width: 200%;
+}
+.footer{
+  margin-left: 300px;
+}
+.footer h1{
+    font-size: 70px;
+}
+.point h3{
+    font-size: 30px;
+    margin-left: 50px;
+}
+.point li{
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+}
+
+    
